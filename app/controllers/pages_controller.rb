@@ -4,4 +4,10 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def test
+  end
+
+  def irene
+  end
 end
