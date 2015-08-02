@@ -1,8 +1,16 @@
-$body-bg:     #F6F7F2;
-$navbar-default-bg:     #5C97BF;
-$navbar-default-link-color: white;
-$btn-default-bg:    #5C97BF;
-$btn-default-color: white;
-$jumbotron-bg: #FFE1AE;
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+$body-bg:     					#F6F7F2;
+$font-family-sans-serif:		'Lobster';
+$navbar-default-bg:     		#5C97BF;
+$navbar-default-link-color: 	white;
+$btn-default-bg:    			#5C97BF;
+$btn-default-color: 			white;
+$jumbotron-bg: 					#D2D7D3;
 
 @import 'bootstrap';
+
+
+.center {
+	text-align: center;
+}
