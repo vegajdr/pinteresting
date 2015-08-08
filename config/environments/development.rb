@@ -35,7 +35,11 @@ Rails.application.configure do
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
 
+<<<<<<< HEAD
     #Required for Heroku
   # Note to set this to your actual host
+=======
+  #Required for heroku
+>>>>>>> 300db51b8becc170876e42208094367b45d91e63
   config.action_mailer.default_url_options = { :host => "localhost:3000" }
 end
