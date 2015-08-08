@@ -76,11 +76,8 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-<<<<<<< HEAD
+
     #Required for Heroku
-=======
-  #Required for Heroku
->>>>>>> 300db51b8becc170876e42208094367b45d91e63
   # Note to set this to your actual host
   config.action_mailer.default_url_options = { :host => "vegajdr.herokuapp.com" }
 end
