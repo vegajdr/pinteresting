@@ -30,7 +30,7 @@ $jumbotron-bg: 					#D2D7D3;
 }
 
 .padding {
-	padding-left: 50px;
+	padding-left: 10px;
 }
 
 .strokeme
@@ -42,4 +42,8 @@ $jumbotron-bg: 					#D2D7D3;
     -1px 1px 0 #000,
     1px 1px 0 #000;
     
+}
+
+.centeralign {
+	align: center;
 }
