@@ -12,6 +12,7 @@ gem 'devise', '~> 3.5.1'
 gem 'coffee-script-source'
 gem 'turbolinks'
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'aws-sdk', '~> 1.20.0'
 
 group :development, :test do
 	gem 'sqlite3'	
