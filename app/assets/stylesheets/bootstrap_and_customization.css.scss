@@ -7,10 +7,11 @@ $navbar-default-bg:     		#5C97BF;
 $navbar-default-link-color: 	white;
 $btn-default-bg:    			#5C97BF;
 $btn-default-color: 			white;
-$jumbotron-bg: 					#ECF0F1;
+$jumbotron-bg: 					#DADFE1;
 
+@import "bootstrap-sprockets";
 @import 'bootstrap';
-
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 
 .center {
 	text-align: center;
@@ -46,4 +47,8 @@ $jumbotron-bg: 					#ECF0F1;
 
 .centeralign {
 	align: center;
+}
+
+.radius {
+	border-radius: 75px !important;
 }
