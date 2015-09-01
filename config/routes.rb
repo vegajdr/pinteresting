@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   root 'pins#index'
   get "about" => "pages#about"
   get "contact" => "pages#contact"
+  get "onemonth" => "pages#onemonth"
 
 
   # The priority is based upon order of creation: first created -> highest priority.
