@@ -5,7 +5,7 @@ class ApplicationController < ActionController::Base
 
   before_filter :redirect_to_https
   def redirect_to_https
-    redirect_to "https://example.com#{request.fullpath}" if !request.ssl? && request.host != "localhost"
+    redirect_to "https://vegajdr.herokuapp.com#{request.fullpath}" if !request.ssl? && request.host != "localhost"
   end
   
    before_action :configure_permitted_parameters, if: :devise_controller?
